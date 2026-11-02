@@ -1,0 +1,1 @@
+Synthetic child fixture for Anthracite 0.6.1 landing.
