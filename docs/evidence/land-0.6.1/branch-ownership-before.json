@@ -1,0 +1,50 @@
+{
+  "land-base": {
+    "parent": "main",
+    "head": "06d92144402328a6a3cbfcb8f05a0055be064ba9",
+    "metadata": "6a69f0f5cd1aaf13fb89efae16a55943bc07b199",
+    "commitText": "Anthracite smoke test <smoke@example.invalid>\ntest: add landing base fixture",
+    "ownDiff": "diff --git a/fixtures/base.txt b/fixtures/base.txt\nnew file mode 100644\nindex 0000000..b34dcb9\n--- /dev/null\n+++ b/fixtures/base.txt\n@@ -0,0 +1 @@\n+Synthetic base fixture for Anthracite 0.6.1 landing.",
+    "files": "AGENTS.md\nREADME.md\nfixtures/base.txt"
+  },
+  "land-child": {
+    "parent": "land-base",
+    "head": "cc5fa46c18b45c924338d26fc4d8085cc1a3506c",
+    "metadata": "6e2bceb85fc41c80af8870a2ba9a6bb0f52b56ad",
+    "commitText": "Anthracite smoke test <smoke@example.invalid>\ntest: add landing child fixture",
+    "ownDiff": "diff --git a/fixtures/child.txt b/fixtures/child.txt\nnew file mode 100644\nindex 0000000..e3799df\n--- /dev/null\n+++ b/fixtures/child.txt\n@@ -0,0 +1 @@\n+Synthetic child fixture for Anthracite 0.6.1 landing.",
+    "files": "AGENTS.md\nREADME.md\nfixtures/base.txt\nfixtures/child.txt"
+  },
+  "land-tip": {
+    "parent": "land-child",
+    "head": "d749651d7003ac08400adee42558c8b7faa1c8b9",
+    "metadata": "04282a85608a72abf8029d4fdd6e9c6315d54aac",
+    "commitText": "Anthracite smoke test <smoke@example.invalid>\ntest: add landing tip fixture",
+    "ownDiff": "diff --git a/fixtures/tip.txt b/fixtures/tip.txt\nnew file mode 100644\nindex 0000000..bd6b6d0\n--- /dev/null\n+++ b/fixtures/tip.txt\n@@ -0,0 +1 @@\n+Synthetic tip fixture for Anthracite 0.6.1 landing.",
+    "files": "AGENTS.md\nREADME.md\nfixtures/base.txt\nfixtures/child.txt\nfixtures/tip.txt"
+  },
+  "land-sibling": {
+    "parent": "land-base",
+    "head": "65d1cc7c4c3abce73a0cf2aa46a3c83ff2a929eb",
+    "metadata": "71e724295fb5fcdf1da66011941e586d5a563eb4",
+    "commitText": "Anthracite smoke test <smoke@example.invalid>\ntest: add landing sibling fixture",
+    "ownDiff": "diff --git a/fixtures/sibling.txt b/fixtures/sibling.txt\nnew file mode 100644\nindex 0000000..1abaebc\n--- /dev/null\n+++ b/fixtures/sibling.txt\n@@ -0,0 +1 @@\n+Synthetic sibling fixture for Anthracite 0.6.1 landing.",
+    "files": "AGENTS.md\nREADME.md\nfixtures/base.txt\nfixtures/sibling.txt"
+  },
+  "land-local-only": {
+    "parent": "land-base",
+    "head": "7a53a4ddbeb9e53590e5bf5e81ebbb5c6e1c5303",
+    "metadata": "b296390af5baf553a719105e55ce95d0e26b8cad",
+    "commitText": "Anthracite smoke test <smoke@example.invalid>\ntest: add landing local-only fixture",
+    "ownDiff": "diff --git a/fixtures/local-only.txt b/fixtures/local-only.txt\nnew file mode 100644\nindex 0000000..6f2e53d\n--- /dev/null\n+++ b/fixtures/local-only.txt\n@@ -0,0 +1 @@\n+Synthetic local-only fixture for Anthracite 0.6.1 landing.",
+    "files": "AGENTS.md\nREADME.md\nfixtures/base.txt\nfixtures/local-only.txt"
+  },
+  "land-independent": {
+    "parent": "main",
+    "head": "e25c2d87f5c8463005c504d99364a8481a2a291c",
+    "metadata": "cc989826989f474f45c01fcc968f688bee5aa8bc",
+    "commitText": "Anthracite smoke test <smoke@example.invalid>\ntest: add landing independent fixture",
+    "ownDiff": "diff --git a/fixtures/independent.txt b/fixtures/independent.txt\nnew file mode 100644\nindex 0000000..48f8264\n--- /dev/null\n+++ b/fixtures/independent.txt\n@@ -0,0 +1 @@\n+Synthetic independent fixture for Anthracite 0.6.1 landing.",
+    "files": "AGENTS.md\nREADME.md\nfixtures/independent.txt"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "0.6.1",
+  "draftRefusedWithoutChanges": true,
+  "readyPreviewSucceededWithoutChanges": true,
+  "dirtyApplicationRefusedWithoutChanges": true,
+  "target": "land-child",
+  "mergeBranches": [
+    "land-base",
+    "land-child"
+  ],
+  "maintainedBranches": [
+    "land-tip",
+    "land-sibling",
+    "land-local-only"
+  ],
+  "independentBranch": "land-independent",
+  "unpublishedBranches": [
+    "land-local-only",
+    "land-independent"
+  ]
+}

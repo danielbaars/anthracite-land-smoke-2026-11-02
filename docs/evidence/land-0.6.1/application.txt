@@ -1,0 +1,39 @@
+Policy: No required reviews or checks (complete rules and classic protection evidence).
+Landing plan: danielbaars/anthracite-land-smoke-2026-11-02 trunk main target land-child
+Trunk: 0135d767eac37b2c9a861280211afc9ca95d0048 -> 0135d767eac37b2c9a861280211afc9ca95d0048 (fast-forward only)
+Merge 1: land-base #1 https://github.com/danielbaars/anthracite-land-smoke-2026-11-02/pull/1
+  Head: 06d92144402328a6a3cbfcb8f05a0055be064ba9
+  Base: main 0135d767eac37b2c9a861280211afc9ca95d0048 (tracked parent main; replay base 0135d767eac37b2c9a861280211afc9ca95d0048)
+  State: OPEN; draft false; readiness CLEAN
+  Verify trunk base/head immediately before effect
+Merge 2: land-child #2 https://github.com/danielbaars/anthracite-land-smoke-2026-11-02/pull/2
+  Head: cc5fa46c18b45c924338d26fc4d8085cc1a3506c
+  Base: land-base 06d92144402328a6a3cbfcb8f05a0055be064ba9 (tracked parent land-base; replay base 06d92144402328a6a3cbfcb8f05a0055be064ba9)
+  State: OPEN; draft false; readiness CLEAN
+  Before merge: replay own commits onto trunk; update existing remote head and PR base/footer; recheck readiness
+Maintain: land-tip
+  Reparent to main; replay from land-child (cc5fa46c18b45c924338d26fc4d8085cc1a3506c); head d749651d7003ac08400adee42558c8b7faa1c8b9
+  Update existing remote head d749651d7003ac08400adee42558c8b7faa1c8b9
+  Update existing PR #3 base/dependency footer; preserve user fields
+Maintain: land-local-only
+  Reparent to main; replay from land-base (06d92144402328a6a3cbfcb8f05a0055be064ba9); head 7a53a4ddbeb9e53590e5bf5e81ebbb5c6e1c5303
+  Unpublished: remain unpublished
+  No PR: do not create one
+Maintain: land-sibling
+  Reparent to main; replay from land-base (06d92144402328a6a3cbfcb8f05a0055be064ba9); head 65d1cc7c4c3abce73a0cf2aa46a3c83ff2a929eb
+  Update existing remote head 65d1cc7c4c3abce73a0cf2aa46a3c83ff2a929eb
+  Update existing PR #4 base/dependency footer; preserve user fields
+Cleanup: land-base, land-child (confirmed landed local metadata/refs and unchanged remote heads only)
+Readiness: READY for disclosed plan.
+Confirmed merged #1: 43d44534542543f55f5e9e21308df81828a0ed89.
+Maintained: land-child; head 063f4220618d17e582c92bdd6c1de261cc393913; existing PR #2; existing remote head verified.
+Maintained: land-tip; head 6c09ce73778078defb7e36e3be0f766263a117c7; existing PR #3; existing remote head verified.
+Maintained: land-local-only; head 65a7963559e3edb2d5604c05abbdc4d445b42bb8; no PR; remains unpublished.
+Maintained: land-sibling; head 3605b63b8effada4a825489352fffd3578510246; existing PR #4; existing remote head verified.
+To https://github.com/danielbaars/anthracite-land-smoke-2026-11-02.git
+ - [deleted]         land-base
+Confirmed merged #2: 9ad3f46ffdddcdd48ac0a344cf7906db3d81b11d.
+Maintained: land-tip; head 0d6b9a4b7144c2626d81e03469a84b36bba9c933; existing PR #3; existing remote head verified.
+To https://github.com/danielbaars/anthracite-land-smoke-2026-11-02.git
+ - [deleted]         land-child
+Landing complete: land-child; trunk advanced and landed refs/metadata cleaned.

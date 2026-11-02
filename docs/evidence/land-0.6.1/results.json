@@ -1,0 +1,83 @@
+{
+  "version": "0.6.1",
+  "liveGitHub": true,
+  "repository": "danielbaars/anthracite-land-smoke-2026-11-02",
+  "mergedPRs": [
+    1,
+    2
+  ],
+  "survivingDraftPRs": [
+    3,
+    4
+  ],
+  "localAndRemoteMainMatch": true,
+  "mainContainsOnlySelectedFixtures": true,
+  "landedLocalRemoteRefsAndMetadataRemoved": true,
+  "survivingPRTitlesBodiesAssigneesAndDraftStatusPreserved": true,
+  "survivors": {
+    "land-tip": {
+      "head": "0d6b9a4b7144c2626d81e03469a84b36bba9c933",
+      "parent": "main",
+      "ownPatchAuthorAndFullMessagePreserved": true,
+      "commitsNotInMain": 1,
+      "published": true,
+      "mergeBase": "9ad3f46ffdddcdd48ac0a344cf7906db3d81b11d",
+      "needsRebaseOntoCurrentMain": false
+    },
+    "land-sibling": {
+      "head": "3605b63b8effada4a825489352fffd3578510246",
+      "parent": "main",
+      "ownPatchAuthorAndFullMessagePreserved": true,
+      "commitsNotInMain": 1,
+      "published": true,
+      "mergeBase": "43d44534542543f55f5e9e21308df81828a0ed89",
+      "needsRebaseOntoCurrentMain": true
+    },
+    "land-local-only": {
+      "head": "65a7963559e3edb2d5604c05abbdc4d445b42bb8",
+      "parent": "main",
+      "ownPatchAuthorAndFullMessagePreserved": true,
+      "commitsNotInMain": 1,
+      "published": false,
+      "mergeBase": "43d44534542543f55f5e9e21308df81828a0ed89",
+      "needsRebaseOntoCurrentMain": true
+    },
+    "land-independent": {
+      "head": "e25c2d87f5c8463005c504d99364a8481a2a291c",
+      "parent": "main",
+      "ownPatchAuthorAndFullMessagePreserved": true,
+      "commitsNotInMain": 1,
+      "published": false,
+      "mergeBase": "0135d767eac37b2c9a861280211afc9ca95d0048",
+      "needsRebaseOntoCurrentMain": true
+    }
+  },
+  "unpublishedBranchesRemainUnpublished": true,
+  "independentBranchHeadAndMetadataUnchanged": true,
+  "originalCheckoutRestored": "land-tip",
+  "cleanWorktree": true,
+  "noPendingLandingOrContinuation": true,
+  "actionsRuns": 0,
+  "applicationResult": {
+    "exit": 0,
+    "seconds": 122.27,
+    "source": "published npm 0.6.1",
+    "liveGitHub": true,
+    "command": [
+      "an",
+      "land",
+      "land-child",
+      "--yes",
+      "--no-interactive"
+    ]
+  },
+  "cliSHA256": "56af5f71644068e546e08f4fd1c36c4b86a6014823a7850b4fba1d87198143ac",
+  "cleanup": {
+    "closedWithoutMerge": [
+      3,
+      4
+    ],
+    "survivorRemoteBranchesRetained": true,
+    "fixtureRepositoryRetained": true
+  }
+}
